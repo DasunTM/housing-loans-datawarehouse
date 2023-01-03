@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>LoanDW_SSAS</Database>
+    <Server>LAPTOP-P2FDI4TM\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=LAPTOP-P2FDI4TM\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>3jdZmfxfSY4J0x447SXK2D5ewes=5/20/2022 12:24:29 AM5/19/2022 10:52:09 PM</TimeStamp>
+        <ID>
+          <String>DS_Loan_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>2k2qBaTihw8rsZBI7B1QZ+rLc+Q=5/19/2022 11:04:18 PM5/19/2022 11:00:10 PM</TimeStamp>
+        <ID>
+          <String>DSV_Loan_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TnQ7mkrdWI9W+rktxDm9xvxso0k=5/20/2022 1:36:19 AM5/19/2022 11:10:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Loan Officer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1fNSl0S2czeKmfOEQ+HaCLQhCoM=5/19/2022 11:17:34 PM5/19/2022 11:10:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Recipient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>z3RywOBUtKI65hUNI53qJF4/Vqo=5/20/2022 1:45:24 AM5/19/2022 11:10:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rDCP+WhSw/RQj8DHmfg4QDkuWGQ=5/19/2022 11:23:59 PM5/19/2022 11:10:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Loan Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>QkLuU9ZqKkOB84EkBGne9BMkHlk=5/21/2022 12:26:48 AM5/19/2022 11:10:39 PMCh/3yX2uiCraDWzE1jX7bg7oRmM=5/19/2022 11:10:40 PM5/19/2022 11:10:40 PM</TimeStamp>
+        <ID>
+          <String>Cube_Loan</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>6nMSKsG+GNJEP/Yq9BVatUornYk=5/19/2022 10:32:20 PM5/19/2022 10:32:20 PM</TimeStamp>
+      <ID>
+        <String>LoanDW_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-20T18:57:14.68Z</LastDeployed>
+</DeploymentSnapshot>
